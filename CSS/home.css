@@ -5,13 +5,38 @@
     /* border: 1px solid red; */
 }
 header{
+    margin-top: 10px;
     text-transform: capitalize;
     text-decoration: none;
 }
 nav{
     display: flex;
+    text-align: center;
     justify-content: space-evenly;
+}
+.navigation{
+    border: 2px dashed rgb(32, 166, 32);
+    padding: 5px 10px;
+    border-radius: 5px;
+    height: min-content;
+}
+.navigation:hover{
+    transform: scale(1.04);
+    transition: .4s;
+    cursor: pointer;
 }
 main{
     
+}
+#open,#close,#dark,#light{
+    display: none;
+}
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
 }

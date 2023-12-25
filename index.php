@@ -11,14 +11,14 @@
 <body>
     <header>
         <nav>
-            <div>home</div>
-            <div>Previous Year Questions</div>
-            <div>CA (1,2,3,4) Questions</div>
-            <div>login</div>
-            <div id="open"><img src="images/menu_open.png" alt="dark images"></div>
-            <div id="close"><img src="images/menu_close.png" alt="dark images"></div>
-            <div id="light"><img src="images/light_mode.png" alt="dark images"></div>
-            <div id="dark"><img src="images/dark_mode.png" alt="dark images"></div>
+            <span class="navigation">home</span>
+            <span class="navigation">Previous Year Questions</span>
+            <span class="navigation">CA (1,2,3,4) Questions</span>
+            <span class="navigation">login</span>
+            <img class="navigation" id="open" src="images/menu_open.png" alt="open">
+            <img class="navigation" id="close" src="images/menu_close.png" alt="close">
+            <img class="navigation" id="light" src="images/light_mode.png" alt="light">
+            <img class="navigation" id="dark" src="images/dark_mode.png" alt="dark">
         </nav>
     </header>
     <main>        
