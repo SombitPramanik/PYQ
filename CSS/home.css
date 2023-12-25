@@ -29,12 +29,16 @@
 }
 
 header {
+    display: flex;
     margin-top: 10px;
     text-transform: capitalize;
     text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
 }
-
 nav {
+    margin: 10px;
+    margin-bottom: 15px;
     display: flex;
     text-align: center;
     justify-content: space-evenly;
@@ -75,4 +79,12 @@ main {}
 .dark-mode {
     background-color: var(--dark-background-color);
     color: var(--dark-text-color);
+}
+.nav_hr{
+    width: 80%;
+    align-self: center;
+    height: 2px;
+    background-color: var(--dark-accent-color1);
+    outline: none;
+    border-radius: 50%  ;
 }
