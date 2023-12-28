@@ -4,7 +4,7 @@
     }
 }
 @media screen and (min-width:570px) {
-    #mobile,#m_nav{
+    #mobile,#m_nav,.mobile_nav_hr{
         display: none;
     }
 }
