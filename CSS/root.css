@@ -37,3 +37,7 @@
     background-color: var(--dark-background-color);
     color: var(--dark-text-color);
 }
+body{
+    margin: auto;
+    max-width: 1024px;
+}

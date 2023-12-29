@@ -5,6 +5,8 @@
     position: relative;
     overflow: hidden;
     text-align: center;
+    max-width: 1024px;
+    
 
 }
 
@@ -15,6 +17,7 @@
     height: 100%;
     position: absolute;
     transition: transform 0.5s ease-in-out;
+    max-width: 1024px;
 }
 
 .left,

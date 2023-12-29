@@ -1,0 +1,34 @@
+.q_button {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    max-width: 600px; /* Set the maximum width if needed */
+    height: 50px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.q_button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3498db; /* Set your desired background color */
+    color: #fff; /* Set the text color */
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.q_button a:hover {
+    background-color: #2980b9; /* Set a different background color on hover */
+}
+
+.hed{
+    font-size: 21px;
+    text-align: center;
+}

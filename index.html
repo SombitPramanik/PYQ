@@ -5,31 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MAKAUT PYQ -- SPP technologies </title>
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="CSS/root.css">
     <link rel="stylesheet" href="CSS/desktop.css">
     <link rel="stylesheet" href="CSS/mobile.css">
     <link rel="stylesheet" href="CSS/responsive.css">
     <link rel="stylesheet" href="CSS/slider.css">
+    <link rel="stylesheet" href="CSS/q_btn.css">
+    <link rel="stylesheet" href="CSS/testimonial.css">
 </head>
 
 <body>
-    <header>
+    <header role="menubar">
         <nav class="desktop">
-            <span class="navigation nav-button">home</span>
-            <span class="navigation nav-button">Previous Year Questions</span>
-            <span class="navigation nav-button">CA (1,2,3,4) Questions</span>
-            <span class="navigation nav-button">login</span>
-            <img class="navigation" id="open" src="images/menu_open.png" alt="open">
-            <img class="navigation" id="close" src="images/menu_close.png" alt="close">
-            <img class="navigation" id="light" src="images/light_mode.png" alt="light">
-            <img class="navigation" id="dark" src="images/dark_mode.png" alt="dark">
+            <span role="menuitem" class="navigation nav-button">home</span>
+            <span role="menuitem" class="navigation nav-button">Previous Year Questions</span>
+            <span role="menuitem" class="navigation nav-button">CA (1,2,3,4) Questions</span>
+            <span role="menuitem" class="navigation nav-button">login</span>
+            <img role="menuitem" class="navigation" id="open" src="images/menu_open.png" alt="open">
+            <img role="menuitem" class="navigation" id="close" src="images/menu_close.png" alt="close">
+            <img role="menuitem" class="navigation" id="light" src="images/light_mode.png" alt="light">
+            <img role="menuitem" class="navigation" id="dark" src="images/dark_mode.png" alt="dark">
         </nav>
         <div class="mobile_nav" id="m_nav">
-            <span>MAKAUT PYQ</span>
-            <img class="mobile-navigation" id="mobile-light" src="images/light_mode.png" alt="light">
-            <img class="mobile-navigation" id="mobile-dark" src="images/dark_mode.png" alt="dark">
-            <img class="mobile-navigation" id="mobile-open" src="images/menu_open.png" alt="open">
+            <span role="heading">MAKAUT PYQ</span>
+            <img role="menuitem" class="mobile-navigation" id="mobile-light" src="images/light_mode.png" alt="light">
+            <img role="menuitem" class="mobile-navigation" id="mobile-dark" src="images/dark_mode.png" alt="dark">
+            <img role="menuitem" class="mobile-navigation" id="mobile-open" src="images/menu_open.png" alt="open">
         </div>
         <hr class="mobile_nav_hr">
         <nav id="mobile">
@@ -37,27 +38,39 @@
                 <img class="mobile-navigation" id="mobile-close" src="images/menu_close.png" alt="close">
 
             </div>
-            <div class="hide">
-                <span class="mobile-navigation mobile-nav-button">home</span>
-                <span class="mobile-navigation mobile-nav-button">Previous Year Questions</span>
-                <span class="mobile-navigation mobile-nav-button">CA (1,2,3,4) Questions</span>
-                <span class="mobile-navigation mobile-nav-button">login</span>
+            <div class="hide" role="menubar">
+                <span role="menuitem" class="mobile-navigation mobile-nav-button">home</span>
+                <span role="menuitem" class="mobile-navigation mobile-nav-button">Previous Year Questions</span>
+                <span role="menuitem" class="mobile-navigation mobile-nav-button">CA (1,2,3,4) Questions</span>
+                <span role="menuitem" class="mobile-navigation mobile-nav-button">login</span>
 
             </div>
         </nav>
         <hr class="nav_hr">
     </header>
-    <main>
-        <div class="slider_container">
-            
-        <div class="btn">
-            <img src="images/left.png" alt="left" class="left" id="left" onclick="prev()">
-            <img src="images/right.png" alt="right" class="right" id="right" onclick="next()">
+    <main role="main">
+        <div class="slider_container" role="slider">
+            <div class="btn">
+                <img role="navigation" src="images/left.png" alt="left" class="left" id="left" onclick="prev()">
+                <img role="navigation" src="images/right.png" alt="right" class="right" id="right" onclick="next()">
+            </div>
+            <div role="banner" class="slide">Some text overlay on the images for slide 1</div>
+            <div role="banner" class="slide">Some text overlay on the images for slide 2</div>
+            <div role="banner" class="slide">Some text overlay on the images for slide 3</div>
+            <div role="banner" class="slide">Some text overlay on the images for slide 4</div>
         </div>
-            <div class="slide">slide 1</div>
-            <div class="slide">slide 2</div>
-            <div class="slide">slide 3</div>
-            <div class="slide">slide 4</div>
+        <h2 class="hed" role="heading">Year wise Questions</h2>
+        <div class="q_button" role="navigation">
+            <a role="navigation" href="http://" target="_blank" rel="noopener noreferrer">2023</a>
+            <a role="navigation" href="http://" target="_blank" rel="noopener noreferrer">2022</a>
+            <a role="navigation" href="http://" target="_blank" rel="noopener noreferrer">2021</a>
+        </div>
+        <div role="presentation" class="testimonial">
+            <p><span>The Best Question Provider</span><br><br>Hey there, i am Ranit Manik, a 2nd year student of Computer Science & Engineering Student of College of Engineering & Management, Colaghat. This Website Help me a lot to improve prepare the Sujations deruing my MAKAUT Exam. I Highelly Recoment this website for Preparing Exam Notes & Sujjations</p>
+            <img class="testi_img" role="banner" src="images/testimonial_img_1.jpg" alt="person">
+        </div>
+        <div class="ad">
+            
         </div>
     </main>
     <footer>
@@ -65,8 +78,8 @@
 
     </footer>
 </body>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
 <script src="JS/theam.js"></script>
 <script src="JS/mobile.js"></script>
 <script src="JS/slider.js"></script>
+
 </html>

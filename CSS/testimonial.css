@@ -1,0 +1,28 @@
+.testimonial{
+    border-top: 2px dashed green;
+    border-bottom: 2px dashed green;
+    width: 90%;
+    margin: 10px auto;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.testi_img{
+    border: 2px dashed black;
+    border-radius: 50%;
+    width: 30%;
+    height: 60%;
+    margin: 0 5px;
+}
+.testimonial p{
+    margin: 10px 5px;
+}
+
+
+.testimonial p span {
+    font-size: 21px;
+}
