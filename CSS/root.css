@@ -26,6 +26,7 @@
     margin: 0;
     padding: 0;
     /* border: 1px solid red; */
+    scrollbar-color: transparent transparent; /* Firefox */
 }
 
 .light-mode {
@@ -40,4 +41,20 @@
 body{
     margin: auto;
     max-width: 1024px;
+    scrollbar-width: 5px; /* Firefox */
+    scrollbar-color: transparent transparent; /* Firefox */
+}
+/* Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, #1eb5e3, #2330e8); 
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent; /* Set track color if needed */
 }
